@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004010-blue)](https://doi.org/10.82901/nemar.on004010)
+
 EEG data from 24 healthy participants performing a multisensory detection task was collected to investigate the dynamics of EEG activity during varying selective attention and the processing of sensory stimuli with distinct features. Participants detected targets in simultaneous audio-visual noise.

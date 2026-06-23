@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MAVIS",
+  "description": "This dataset comprises EEG recordings from 24 healthy participants performing a multisensory detection task designed to investigate the dynamics of neural activity during selective attention and sensory processing. Participants detected audiovisual targets embedded in simultaneous noise, enabling investigation of modality-specific attention mechanisms and their relationship to electrophysiological spectral properties.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,50 +24,12 @@
       "orcid": "0000-0002-7619-0459"
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004010.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004010",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004010",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.7554/eLife.70068",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises EEG recordings from 24 healthy participants performing a multisensory detection task designed to investigate the dynamics of neural activity during selective attention and sensory processing. Participants detected audiovisual targets embedded in simultaneous noise, enabling investigation of modality-specific attention mechanisms and their relationship to electrophysiological spectral properties.",
   "keywords": [
     {
       "term": "EEG"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "attention"
     },
     {
       "term": "multisensory integration"
@@ -81,8 +44,44 @@
       "term": "spectral exponent"
     },
     {
-      "term": "target detection"
+      "term": "sensory detection"
     }
   ],
-  "source_hash": "b11bf5f5c3d0197288c893b9a6d324f548f2a4b6589b36b0b33aac597c80bc00"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004010",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004010",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.7554/eLife.70068",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004010.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "24.8 GB (25 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "b414c280d86493b305d4f67bd48ad475b11ac1c082f4b633b17508a23d0cf678"
 }

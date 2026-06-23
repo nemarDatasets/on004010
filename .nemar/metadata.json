@@ -1,33 +1,88 @@
 {
   "version": "2.0",
-  "dataset_id": "on004010",
-  "source": "openneuro",
-  "source_id": "ds004010",
+  "pipeline_stage": "validated",
   "title": "MAVIS",
-  "authors": {
-    "Leonhard Waschke": {},
-    "Thomas Donoghue": {},
-    "Lorenz Fiedler": {},
-    "Sydney Smith": {},
-    "Douglas Garrett": {},
-    "Bradley Voytek": {},
-    "Jonas Obleser": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Leonhard Waschke": {
+      "orcid": "0000-0002-1248-9259"
+    },
+    "Thomas Donoghue": {
+      "orcid": "0000-0001-5911-0472"
+    },
+    "Lorenz Fiedler": {
+      "orcid": "0000-0002-7892-6917"
+    },
+    "Sydney Smith": {},
+    "Douglas Garrett": {},
+    "Bradley Voytek": {
+      "orcid": "0000-0003-1640-2525"
+    },
+    "Jonas Obleser": {
+      "orcid": "0000-0002-7619-0459"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004010.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004010",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004010",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.7554/eLife.70068",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from 24 healthy participants performing a multisensory detection task designed to investigate the dynamics of neural activity during selective attention and sensory processing. Participants detected audiovisual targets embedded in simultaneous noise, enabling investigation of modality-specific attention mechanisms and their relationship to electrophysiological spectral properties.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "multisensory integration"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "spectral exponent"
+    },
+    {
+      "term": "target detection"
+    }
+  ],
+  "source_hash": "b11bf5f5c3d0197288c893b9a6d324f548f2a4b6589b36b0b33aac597c80bc00"
 }

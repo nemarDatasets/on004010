@@ -44,7 +44,9 @@
       "term": "spectral exponent"
     },
     {
-      "term": "sensory detection"
+      "term": "Electrophysiology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
     }
   ],
   "related_identifiers": [

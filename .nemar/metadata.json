@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MAVIS",
-  "description": "This dataset comprises EEG recordings from 24 healthy participants performing a multisensory detection task designed to investigate the dynamics of neural activity during selective attention and sensory processing. Participants detected audiovisual targets embedded in simultaneous noise, enabling investigation of modality-specific attention mechanisms and their relationship to electrophysiological spectral properties.",
+  "description": "EEG recordings from 24 healthy participants performing a multisensory (audio-visual) detection task. Participants detected targets embedded in simultaneous auditory and visual noise while selective attention varied. The dataset supports investigation of EEG spectral dynamics, including the spectral exponent, under changing attention and sensory statistics.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,34 +29,24 @@
       "term": "EEG"
     },
     {
-      "term": "attention"
+      "term": "selective attention"
     },
     {
-      "term": "multisensory integration"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "visual processing"
+      "term": "multisensory detection"
     },
     {
       "term": "spectral exponent"
     },
     {
-      "term": "Electrophysiology",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004594"
+      "term": "sensory statistics"
+    },
+    {
+      "term": "audio-visual"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004010",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004010",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -69,6 +59,11 @@
       "identifier": "10.18112/openneuro.ds004010.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004010",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -76,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.8 GB (25 files)"
+    "23.13 GB (25 files)"
   ],
   "formats": [
     ".json",
@@ -85,5 +80,6 @@
     ".tsv",
     ".yml"
   ],
+  "methods_description": "Participants detected target stimuli in simultaneous audio-visual noise while EEG was recorded, with selective attention to the auditory or visual modality varying across conditions.",
   "source_hash": "b414c280d86493b305d4f67bd48ad475b11ac1c082f4b633b17508a23d0cf678"
 }
